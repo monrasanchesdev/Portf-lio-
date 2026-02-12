@@ -78,7 +78,7 @@ body {
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     font-size: 2rem;
-    padding: 5rem 5rem;
+    padding: 3rem 2rem;
 }
 
 .cabecalho__menu__link {
@@ -189,6 +189,11 @@ main {
 ============================ */
 
 @media (max-width: 1024px) {
+
+    .cabecalho__menu {
+        padding: 2rem 1rem;
+    }
+
 
     main {
         display: flex;
