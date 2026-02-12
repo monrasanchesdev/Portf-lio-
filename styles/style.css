@@ -48,7 +48,6 @@ body {
     flex-direction: column;
     gap: 40px;
     width: 615px;
-    height: 482px;
 }
 
 .titulo-conteudo {
@@ -108,10 +107,13 @@ body {
 .rodape {
     margin-top: 106px;
     padding: 24px;
+    color: #000000;
+    background-color: #22D4FD;
     text-align: center;
     font-family: "Montserrat", sans-serif;
     font-size: 24px;
     font-weight: 400;
-    color: #000000;
-    background-color: #22D4FD;
 }
+
+
+@media (max-width: 768px)
